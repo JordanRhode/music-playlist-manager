@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project>
-    <PropertyGroup>
-        <TargetFramework>net8.0</TargetFramework>
-        <Nullable>enable</Nullable>
-    </PropertyGroup>
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
 
-    <!-- Code cleanliness -->
-    <PropertyGroup>
-        <ImplicitUsings>enable</ImplicitUsings>
-        <AnalysisMode>AllEnabledByDefault</AnalysisMode>
-        <CodeAnalysisTreatWarningsAsErrors>true</CodeAnalysisTreatWarningsAsErrors>
-        <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
-    </PropertyGroup>
+	<!-- Code cleanliness -->
+	<PropertyGroup>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<AnalysisMode>AllEnabledByDefault</AnalysisMode>
+		<CodeAnalysisTreatWarningsAsErrors>true</CodeAnalysisTreatWarningsAsErrors>
+		<TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+	</PropertyGroup>
 
-    <Target Name="_FormatSourceFiles" BeforeTargets="BeforeBuild" Inputs="@(Compile)"
-        Outputs="@(IntermediateAssembly)" Condition="'$(SkipDotnetFormat)'==''">
-        <Exec WorkingDirectory="$(ProjectDir)" Command="dotnet format" />
-    </Target>
+	<Target Name="_FormatSourceFiles" BeforeTargets="BeforeBuild" Inputs="@(Compile)"
+		Outputs="@(IntermediateAssembly)" Condition="'$(SkipDotnetFormat)'==''">
+		<Exec WorkingDirectory="$(ProjectDir)" Command="dotnet format" />
+	</Target>
 </Project>
