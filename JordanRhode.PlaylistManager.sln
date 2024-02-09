@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34309.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JordanRhode.PlaylistManager", "JordanRhode.PlaylistManager\JordanRhode.PlaylistManager.csproj", "{F25C0870-701B-43C6-A3DD-9C9666250637}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JordanRhode.PlaylistManager.Tests", "JordanRhode.PlaylistManager.Tests\JordanRhode.PlaylistManager.Tests.csproj", "{165BB635-2B32-4B61-858E-15E867A5BDDC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F25C0870-701B-43C6-A3DD-9C9666250637}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F25C0870-701B-43C6-A3DD-9C9666250637}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F25C0870-701B-43C6-A3DD-9C9666250637}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F25C0870-701B-43C6-A3DD-9C9666250637}.Release|Any CPU.Build.0 = Release|Any CPU
+		{165BB635-2B32-4B61-858E-15E867A5BDDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{165BB635-2B32-4B61-858E-15E867A5BDDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{165BB635-2B32-4B61-858E-15E867A5BDDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{165BB635-2B32-4B61-858E-15E867A5BDDC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {771C3206-6BEB-4CD7-9385-A5A7455539B3}
+	EndGlobalSection
+EndGlobal
